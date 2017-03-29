@@ -91,4 +91,16 @@ public class MyLinkedList<E> {
 		return size == 0;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		Node current = head;
+		while(current != null) {
+			sb.append(current.val + " -> ");
+			current = current.next;
+		}
+		sb.append("null");
+		return sb.toString();
+	}
+
 }
