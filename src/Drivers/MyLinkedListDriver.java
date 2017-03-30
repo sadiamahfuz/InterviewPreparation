@@ -21,15 +21,15 @@ public class MyLinkedListDriver {
 		list.remove(4);
 
 		System.out.println(list.toString());
-
+		
 		list.add(6);
-
+		
 		list.remove(8);
-
+		
 		System.out.println(list.toString());
-
+		
 		System.out.println(list.contains(7));
-
+		
 		System.out.println(list.contains(3));
 
 	}
