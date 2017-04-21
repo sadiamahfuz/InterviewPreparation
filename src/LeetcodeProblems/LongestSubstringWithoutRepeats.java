@@ -1,7 +1,7 @@
 package LeetcodeProblems;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 /*
  * Problem # 3
@@ -18,21 +18,15 @@ public class LongestSubstringWithoutRepeats {
 	public int getLongestSubstring(String s) {
 		int result = 0;
 
-		Set<Character> set = new HashSet<Character>();
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
 
-		StringBuilder current = new StringBuilder();
-
-		for (char c: s.toCharArray()) {
-			if (set.contains(c)) {
-				// found repeating character
-				if (result < current.length()) {
-					result = current.length();
-				}
-				set.clear();
-				current.setLength(0);
+		for (int i = 0, j = 0; i < s.length(); i++) {
+			char c = s.charAt(i);
+			if (map.containsKey(c)) {
+				j = Math.max(j, map.get(c));
 			}
-			set.add(c);
-			current.append(c);
+			result = Math.max(result, i + 1 - j);
+			map.put(c, i + 1);
 		}
 
 		return result;
@@ -43,6 +37,7 @@ public class LongestSubstringWithoutRepeats {
 		System.out.println(l.getLongestSubstring("abcabcbb"));
 		System.out.println(l.getLongestSubstring("bbbbb"));
 		System.out.println(l.getLongestSubstring("pwwkew"));
-		System.out.println(l.getLongestSubstring("aaabcdefghijklmnopqrstuvwxyzzzz"));
+		System.out.println(l.getLongestSubstring("dvdf"));
+		System.out.println(l.getLongestSubstring("abcadefg"));
 	}
 }
