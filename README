@@ -1,4 +1,7 @@
-This project contains solutions to problems commonly asked in Interviews.
-The problems are from LeetCode: https://leetcode.com/problemset/algorithms/
+This project contains solutions to Algorithm and Data Structure problems commonly asked in Interviews. The problems were gathered from various sources including:
+  LeetCode: https://leetcode.com/problemset/algorithms/
+  CareerCup: https://www.careercup.com/
+  GeekForGeeks: https://www.geeksforgeeks.org/
+  Cracking the Coding Interview Book
 
 In addition, my implementation of common data structures and sorting algorithms are included.
