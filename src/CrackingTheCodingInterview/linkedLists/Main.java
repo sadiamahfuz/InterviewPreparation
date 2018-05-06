@@ -1,4 +1,4 @@
-package linkedLists;
+package CrackingTheCodingInterview.linkedLists;
 
 public class Main {
 

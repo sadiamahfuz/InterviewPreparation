@@ -1,4 +1,4 @@
-package Hard;
+package CrackingTheCodingInterview.Hard;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package Moderate;
+package CrackingTheCodingInterview.Moderate;
 
 import java.util.HashMap;
 import java.util.Map;

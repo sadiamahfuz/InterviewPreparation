@@ -1,4 +1,4 @@
-package recursionAndDynamic;
+package CrackingTheCodingInterview.recursionAndDynamic;
 
 import java.awt.Point;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Moderate;
+package CrackingTheCodingInterview.Moderate;
 
 /*
  * 10, and 5 * 2 contributes to 0s

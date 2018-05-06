@@ -1,4 +1,4 @@
-package recursionAndDynamic;
+package CrackingTheCodingInterview.recursionAndDynamic;
 
 public class TripleSteps {
 

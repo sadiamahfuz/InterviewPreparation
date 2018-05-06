@@ -1,4 +1,4 @@
-package Moderate;
+package CrackingTheCodingInterview.Moderate;
 
 import java.util.Stack;
 import java.util.StringTokenizer;

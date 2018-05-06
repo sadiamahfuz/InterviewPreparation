@@ -1,4 +1,4 @@
-package Moderate;
+package CrackingTheCodingInterview.Moderate;
 
 public class NumberSwapper {
 

@@ -1,4 +1,4 @@
-package Moderate;
+package CrackingTheCodingInterview.Moderate;
 
 import java.util.HashSet;
 import java.util.LinkedList;

@@ -1,11 +1,11 @@
-package tests;
+package CrackingTheCodingInterview.tests;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import arraysAndStrings.StringMethods;
+import CrackingTheCodingInterview.arraysAndStrings.StringMethods;
 
 public class StringMethodsTest {
 

@@ -1,4 +1,4 @@
-package linkedLists;
+package CrackingTheCodingInterview.linkedLists;
 
 import java.util.HashSet;
 import java.util.Iterator;
