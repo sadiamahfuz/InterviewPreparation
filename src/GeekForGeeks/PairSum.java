@@ -26,14 +26,14 @@ public class PairSum {
 
 		// Read one of the arrays into a Set
 		Set<Integer> numbers = new HashSet<Integer>();
-		for (int n: A) {
+		for (int n: B) {
 			numbers.add(n);
 		}
 
-		for (int n: B) {
+		for (int n: A) {
 			int need = sum - n;
 			if (numbers.contains(need)) {
-				pairs.add(new Pair(need, n));
+				pairs.add(new Pair(n, need));
 			}
 		}
 
