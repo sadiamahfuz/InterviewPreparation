@@ -1,4 +1,4 @@
-package arraysAndStrings;
+package CrackingTheCodingInterview.arraysAndStrings;
 
 import java.util.Arrays;
 import java.util.HashSet;

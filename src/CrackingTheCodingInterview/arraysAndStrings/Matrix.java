@@ -1,4 +1,4 @@
-package arraysAndStrings;
+package CrackingTheCodingInterview.arraysAndStrings;
 
 /**
  * Answer to Question 1.7
